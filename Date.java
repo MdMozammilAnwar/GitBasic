@@ -3,4 +3,7 @@ public class Date{
 	Date d=new Date();
 	return d;
 	}
+	public Time getCurrentTime(){
+	return new Date().getTime();
+	}
 }
